@@ -2,19 +2,32 @@
   <nav class="bg-blue-500 py-4">
     <ul class="flex justify-center space-x-16">
       <li>
-        <nuxt-link to="/" class="text-white hover:underline">Halla</nuxt-link>
+        <nuxt-link to="/" class="text-white hover:underline">Hjem</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/wallah" class="text-white hover:underline">Wallah</nuxt-link>
+        <nuxt-link to="/arnes" class="text-white hover:underline"
+          >Årnes</nuxt-link
+        >
       </li>
       <li>
-        <nuxt-link to="/inshallah" class="text-white hover:underline">Inshallah</nuxt-link>
+        <nuxt-link to="/holmis" class="text-white hover:underline"
+          >Holmestrand</nuxt-link
+        >
       </li>
       <li>
-        <nuxt-link to="/bro" class="text-white hover:underline">Bro</nuxt-link>
+        <nuxt-link to="/sandnes" class="text-white hover:underline"
+          >Sandnes</nuxt-link
+        >
       </li>
       <li>
-        <nuxt-link to="/wakkaflow" class="text-white hover:underline">Wakkaflow</nuxt-link>
+        <nuxt-link to="/stavanger" class="text-white hover:underline"
+          >Stavanger</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link to="/frekk" class="text-white hover:underline"
+          >Fredrikstad</nuxt-link
+        >
       </li>
     </ul>
   </nav>
@@ -22,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Navbar'
+  name: "Navbar",
 };
 </script>
 
